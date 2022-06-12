@@ -1,0 +1,47 @@
+@import url(weather-history.css);
+@import url(dayForecastComponent.css);
+@import url(weeklyForecastView.css);
+@import url(search-view.css);
+@import url(dayForecastView.css);
+@import url(user-preferences-component.css);
+
+main {
+  padding: 32px;
+}
+@media (max-width: 576px) {
+  main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(34, 68, 89, 0.8),
+      rgba(194, 224, 242, 0.8)
+    ),
+    url(https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-size: cover;
+  /* Background image is responsive */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #777;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}

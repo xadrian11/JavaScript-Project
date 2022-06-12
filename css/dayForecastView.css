@@ -1,0 +1,51 @@
+.daily-main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.daily-wrapper {
+  background-color: #fff;
+  border-radius: 5rem;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 20rem;
+  padding: 1rem 3rem;
+  position: relative;
+  text-align: center;
+  transition: all 0.2s;
+  margin: 1.5rem 0 0 3.5rem;
+}
+
+.daily-wrapper:hover {
+  transform: scale(1.1);
+  background-color: #42778c;
+  color: #fff;
+}
+
+.daily-wrapper:hover .current-day {
+  color: #fff;
+}
+
+.weather-history-container {
+  margin: 3.5rem;
+  width: calc(100% - 150px);
+}
+
+.weather-history-header {
+  margin: 0 0 2rem 2rem;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.weather-history-date {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0 0 1rem 2rem;
+}
+
+.daily-city-name {
+  color: #fff;
+  margin: 1rem 0 0 7.4rem;
+}

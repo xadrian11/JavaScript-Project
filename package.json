@@ -1,0 +1,25 @@
+{
+  "name": "team-mw-project-1",
+  "private": "true",
+  "engines": {
+    "node": "17"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "prepare": "is-ci || husky install"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "husky": "^7.0.4",
+    "is-ci": "^3.0.1",
+    "jest": "^27.4.3",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.5.0",
+    "vite": "^2.6.14"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

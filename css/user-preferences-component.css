@@ -1,0 +1,84 @@
+.modal {
+  position: absolute;
+  left: calc(100% - 340px - 1rem);
+  top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  border-radius: 3rem;
+  background-color: #ffffff;
+  padding: 3rem;
+  z-index: 20;
+  transform: scale(0);
+  transition: transform 200ms ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.wrapper-radio {
+  display: flex;
+  gap: 2px;
+}
+
+.heading-3 {
+  padding: 1rem;
+}
+
+.button {
+  all: unset;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 30px;
+  padding: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #42778c;
+  background-color: #ffffff;
+}
+
+.radio-btn-label {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.radio-btn-label:hover {
+  background-color: #ededed;
+}
+
+input {
+  appearance: none;
+}
+
+input:checked + .radio-btn-label {
+  color: #ffffff;
+  background-color: #42778c;
+}
+
+.settings {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  padding: 2rem;
+  font-size: 2rem;
+  width: 30px;
+  color: #42778c;
+  background-color: #ffffff;
+  z-index: 20;
+}
+
+.visible {
+  transform: scale(1);
+}

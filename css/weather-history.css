@@ -1,0 +1,84 @@
+.history-div,
+.weather-piece-container,
+.temp-chart,
+.wind-piece,
+.weather-history-div {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.weather-history-div {
+  width: 90%;
+  overflow-x: auto;
+}
+
+.history-div {
+  width: fit-content;
+  gap: 8px;
+}
+
+.weather-piece-container,
+.wind-container,
+.weather-img-div {
+  display: flex;
+  font-size: 14px;
+}
+
+.weather-piece-container,
+.weather-img-div {
+  width: 100%;
+}
+
+.weather-img-div {
+  height: 40px;
+}
+
+.img-piece,
+.temp-chart,
+.wind-piece {
+  width: 30px;
+}
+
+.img-piece,
+.weather-piece-container,
+.temp-chart {
+  padding: 0 0.25rem;
+}
+
+.wind-container {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+}
+
+.weather-piece-container,
+.wind-piece {
+  justify-content: center;
+}
+
+.temp-chart-container,
+.temp-chart {
+  height: auto;
+}
+
+.temp-chart-container {
+  display: flex;
+  width: auto;
+}
+
+.temp-chart {
+  justify-content: flex-end;
+}
+
+.temp-box {
+  width: 100%;
+  margin: 0;
+}
+
+.wind-piece {
+  align-items: center;
+  margin: 0 0.25rem;
+}

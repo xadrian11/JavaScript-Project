@@ -1,0 +1,53 @@
+.main-container {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.weekly-view {
+  align-items: center;
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+  width: auto;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.city-data-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  height: 20vh;
+}
+.city-name {
+  color: #fff;
+  position: relative;
+  top: 1rem;
+  font-size: 4rem;
+}
+
+.coutry-name {
+  font-weight: 400;
+}
+.time-data {
+  color: #fff;
+}
+
+.time {
+  display: flex;
+}
+
+.city-data {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  color: #fff;
+}
+
+.time-paragraph {
+  margin-right: 1rem;
+  font-weight: 700;
+}

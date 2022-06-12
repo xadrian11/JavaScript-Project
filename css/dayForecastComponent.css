@@ -1,0 +1,58 @@
+.wrapper {
+  background-color: #fff;
+  border-radius: 5rem;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 1rem 3rem;
+  position: relative;
+  text-align: center;
+  transition: all 0.2s;
+  width: 220px;
+}
+
+.wrapper:hover {
+  transform: scale(1.1);
+  background-color: #42778c;
+  color: #fff;
+}
+
+.wrapper:hover .current-day {
+  color: #fff;
+}
+
+.current-day {
+  transition: all 0.1s;
+  text-decoration: none;
+  color: #42778c;
+}
+
+.conditions {
+  font-weight: 700;
+}
+
+.visibility-value,
+.humidity-value,
+.temperatures,
+.header {
+  margin-bottom: 1rem;
+}
+
+.weather-state,
+.wind,
+.pressure-value {
+  align-items: center;
+  display: flex;
+  flex-wrap: Wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.wheater-state-img {
+  margin-right: 1rem;
+  width: 5rem;
+}
+
+.wind-direction {
+  margin-right: 1rem;
+}

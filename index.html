@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/e8f6385ae3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <template class="city-data-template">
+      <div class="city-data-view">
+        <div class="city-data">
+          <p class="country-name"></p>
+        </div>
+        <div class="time-data">
+          <div class="time">
+            <p class="time-paragraph">Time:</p>
+            <p class="current-time-value"></p>
+          </div>
+          <div class="time">
+            <p class="time-paragraph">Sunrise:</p>
+            <p class="sunrise-time-value"></p>
+          </div>
+          <div class="time">
+            <p class="time-paragraph">Sunset:</p>
+            <p class="sunset-time-value"></p>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <main></main>
+    <template class="search-view-template">
+      <div class="search-bar-wrapper">
+        <img src="/static/img/logo.png" class="app-logo" />
+        <h1 class="search-view-header">Find a forecast</h1>
+        <input class="search-bar" placeholder="Enter a city" />
+        <div class="locations-list"></div>
+      </div>
+    </template>
+
+    <template class="weekly-view-template">
+      <h2 class="header">
+        <a href="#" class="current-day"></a>
+      </h2>
+      <div class="weather-state">
+        <img class="wheater-state-img" alt="" />
+        <span class="weather-state-name"></span>
+      </div>
+      <div class="temperatures">
+        <p class="max-temp"></p>
+        <p class="min-temp"></p>
+      </div>
+
+      <div class="wind">
+        <span class="wind-direction"> &uarr;</span>
+        <p class="wind-speed"></p>
+      </div>
+      <div class="humidity">
+        <p class="conditions">Humidity</p>
+        <p class="humidity-value"></p>
+      </div>
+
+      <div class="visibility">
+        <p class="conditions">Visibility</p>
+        <p class="visibility-value"></p>
+      </div>
+
+      <div class="pressure">
+        <p class="conditions">Pressure</p>
+        <p class="pressure-value"></p>
+      </div>
+
+      <div class="confidence">
+        <p class="conditions">Confidence</p>
+        <p class="confidence-value"></p>
+      </div>
+    </template>
+
+    <template id="template-user-preferences-component">
+      <button class="button settings">
+        <i class="fas fa-user-cog"></i>
+      </button>
+
+      <div class="modal">
+        <button class="button cancel-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <h3 class="heading-3">Temperature:</h3>
+        <div class="wrapper-radio">
+          <input
+            type="radio"
+            name="temperature"
+            id="radioTempC"
+            value="c"
+            checked
+          />
+          <label for="radioTempC" class="radio-btn-label">&#8451;</label>
+          <input type="radio" name="temperature" id="radioTempF" value="f" />
+          <label for="radioTempF" class="radio-btn-label">&#8457;</label>
+        </div>
+        <h3 class="heading-3">Speed & Distance:</h3>
+        <div class="wrapper-radio">
+          <input type="radio" name="speed" id="radioKph" value="kph" />
+          <label for="radioKph" class="radio-btn-label">kph / km</label>
+          <input type="radio" name="speed" id="radioMph" value="mph" checked />
+          <label for="radioMph" class="radio-btn-label">mph / mi</label>
+        </div>
+      </div>
+    </template>
+
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
