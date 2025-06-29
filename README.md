@@ -1,22 +1,3 @@
-# CodersCamp 2021 - Team: Maciej Walaszczyk
-
-## Project 1 (HTML & CSS & JavaScript): Weather Forecast Application 🌦
-
-> Links to [Latest hosted version](https://coderscamp2021.github.io/team-mw-project-1) and [Demo presentation](https://bit.ly/3t2JdS0)
-
-## 🙋‍♀️🙋‍♂️ The Team
-
-**👨‍🏫 Mentor**: [Maciej Walaszczyk](https://github.com/walaszczykm)
-
-**👩‍💻👨‍💻 Members**:
-
-- [Justyna Wilk](https://github.com/jmmwilk)
-- [Halina Syposz](https://github.com/LilBr21)
-- [Dawid Pietruszewski](https://github.com/Davcode1234)
-- [Wojciech Wątroba](https://github.com/AdalbertusLiver)
-- [Maciek Mroczko](https://github.com/Utmetu)
-- [Adrian Banaszak](https://github.com/xadrian11)
-
 ## ⚙️ How to run a project
 
 ### Clone repository
